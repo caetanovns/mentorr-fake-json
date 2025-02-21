@@ -58,6 +58,18 @@
                 "SQL"
             ],
             "photo": "https://placehold.co/400"
+        },
+        {
+            "id": 6,
+            "name": "Programador 6",
+            "role": "Analista de Dados II",
+            "rating": 5,
+            "skills": [
+                "Python",
+                "ML",
+                "PGSQL"
+            ],
+            "photo": "https://placehold.co/400"
         }
     ],
     "testimonials": [
