@@ -294,46 +294,5 @@
         { "name": "Agile" }
       ]
     },
-    {
-      "id": 9,
-      "user": { "name": "Camila Rocha" },
-      "cargo": { "name": "Designer de UX/UI" },
-      "empresa": { "name": "PixelArt" },
-      "curriculo": "www.camilarocha.com/cv",
-      "biografia": "Especialista em design de interfaces intuitivas e atraentes.",
-      "preco": 24.0,
-      "avaliacao": 4.7,
-      "habilidades": [
-        { "name": "UX/UI" },
-        { "name": "Figma" },
-        { "name": "Adobe XD" },
-        { "name": "Sketch" },
-        { "name": "Prototipagem" },
-        { "name": "Design Thinking" },
-        { "name": "Front-end" },
-        { "name": "Agile" }
-      ]
-    },
-    {
-      "id": 10,
-      "user": { "name": "Gustavo Henrique" },
-      "cargo": { "name": "Engenheiro de Dados" },
-      "empresa": { "name": "DataFlow" },
-      "curriculo": "www.gustavohenrique.com/cv",
-      "biografia": "Especialista em big data e pipelines de dados.",
-      "preco": 32.0,
-      "avaliacao": 4.9,
-      "habilidades": [
-        { "name": "Big Data" },
-        { "name": "Hadoop" },
-        { "name": "Spark" },
-        { "name": "Python" },
-        { "name": "SQL" },
-        { "name": "Cloud Computing" },
-        { "name": "DevOps" },
-        { "name": "Agile" },
-        { "name": "Segurança da Informação" }
-      ]
-    },
   ]
 }
