@@ -134,6 +134,7 @@
       "biografia": "Especialista em desenvolvimento de sistemas e inovação tecnológica.",
       "preco": 22.5,
       "avaliacao": 1,
+      "habilidade_principal": "Front-end",
       "habilidades": [
         { "name": "Python" },
         { "name": "Django" },
@@ -155,6 +156,7 @@
       "biografia": "Desenvolvedor experiente em soluções web e mobile.",
       "preco": 25.0,
       "avaliacao": 5,
+      "habilidade_principal": "Back-end",
       "habilidades": [
         { "name": "Front-end" },
         { "name": "Back-end" },
@@ -177,6 +179,7 @@
       "biografia": "Especialista em integração contínua e entrega contínua.",
       "preco": 30.0,
       "avaliacao": 3,
+      "habilidade_principal": "DevOps",
       "habilidades": [
         { "name": "DevOps" },
         { "name": "Kubernetes" },
@@ -199,6 +202,7 @@
       "biografia": "Especialista em interfaces de usuário responsivas e modernas.",
       "preco": 20.0,
       "avaliacao": 2,
+      "habilidade_principal": "UX/UI",
       "habilidades": [
         { "name": "Front-end" },
         { "name": "React" },
@@ -220,6 +224,7 @@
       "biografia": "Especialista em soluções escaláveis na nuvem.",
       "preco": 35.0,
       "avaliacao": 4,
+      "habilidade_principal": "Cloud Computing",
       "habilidades": [
         { "name": "Cloud Computing" },
         { "name": "AWS" },
