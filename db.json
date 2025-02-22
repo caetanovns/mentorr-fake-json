@@ -127,452 +127,212 @@
   "mentores": [
     {
       "id": 1,
-      "user": {
-        "name": "Ana Silva"
-      },
-      "cargo": {
-        "name": "CTO"
-      },
-      "empresa": {
-        "name": "Tech Solutions"
-      },
+      "user": { "name": "Ana Silva" },
+      "cargo": { "name": "CTO" },
+      "empresa": { "name": "Tech Solutions" },
       "curriculo": "www.anasilva.com/cv",
       "biografia": "Especialista em desenvolvimento de sistemas e inovação tecnológica.",
       "preco": 22.5,
       "avaliacao": 4.7,
       "habilidades": [
-        {
-          "name": "Python"
-        },
-        {
-          "name": "Django"
-        },
-        {
-          "name": "Laravel"
-        },
-        {
-          "name": "HTML"
-        },
-        {
-          "name": "JS"
-        },
-        {
-          "name": "Front-end"
-        },
-        {
-          "name": "Back-end"
-        },
-        {
-          "name": "Cloud Computing"
-        },
-        {
-          "name": "Agile"
-        }
+        { "name": "Python" },
+        { "name": "Django" },
+        { "name": "Laravel" },
+        { "name": "HTML" },
+        { "name": "JS" },
+        { "name": "Front-end" },
+        { "name": "Back-end" },
+        { "name": "Cloud Computing" },
+        { "name": "Agile" }
       ]
     },
     {
       "id": 2,
-      "user": {
-        "name": "Carlos Mendes"
-      },
-      "cargo": {
-        "name": "Desenvolvedor Full-Stack"
-      },
-      "empresa": {
-        "name": "InovaTech"
-      },
+      "user": { "name": "Carlos Mendes" },
+      "cargo": { "name": "Desenvolvedor Full-Stack" },
+      "empresa": { "name": "InovaTech" },
       "curriculo": "www.carlosmendes.com/cv",
       "biografia": "Desenvolvedor experiente em soluções web e mobile.",
       "preco": 25.0,
       "avaliacao": 4.8,
       "habilidades": [
-        {
-          "name": "Front-end"
-        },
-        {
-          "name": "Back-end"
-        },
-        {
-          "name": "React"
-        },
-        {
-          "name": "Node.js"
-        },
-        {
-          "name": "UX/UI"
-        },
-        {
-          "name": "Agile"
-        },
-        {
-          "name": "MongoDB"
-        },
-        {
-          "name": "Docker"
-        },
-        {
-          "name": "AWS"
-        },
-        {
-          "name": "Git"
-        }
+        { "name": "Front-end" },
+        { "name": "Back-end" },
+        { "name": "React" },
+        { "name": "Node.js" },
+        { "name": "UX/UI" },
+        { "name": "Agile" },
+        { "name": "MongoDB" },
+        { "name": "Docker" },
+        { "name": "AWS" },
+        { "name": "Git" }
       ]
     },
     {
       "id": 3,
-      "user": {
-        "name": "Mariana Costa"
-      },
-      "cargo": {
-        "name": "Engenheira de DevOps"
-      },
-      "empresa": {
-        "name": "CloudNest"
-      },
+      "user": { "name": "Mariana Costa" },
+      "cargo": { "name": "Engenheira de DevOps" },
+      "empresa": { "name": "CloudNest" },
       "curriculo": "www.marianacosta.com/cv",
       "biografia": "Especialista em integração contínua e entrega contínua.",
       "preco": 30.0,
       "avaliacao": 4.9,
       "habilidades": [
-        {
-          "name": "DevOps"
-        },
-        {
-          "name": "Kubernetes"
-        },
-        {
-          "name": "Terraform"
-        },
-        {
-          "name": "Jenkins"
-        },
-        {
-          "name": "AWS"
-        },
-        {
-          "name": "Azure"
-        },
-        {
-          "name": "Docker"
-        },
-        {
-          "name": "GitLab"
-        },
-        {
-          "name": "Agile"
-        },
-        {
-          "name": "Segurança da Informação"
-        }
+        { "name": "DevOps" },
+        { "name": "Kubernetes" },
+        { "name": "Terraform" },
+        { "name": "Jenkins" },
+        { "name": "AWS" },
+        { "name": "Azure" },
+        { "name": "Docker" },
+        { "name": "GitLab" },
+        { "name": "Agile" },
+        { "name": "Segurança da Informação" }
       ]
     },
     {
       "id": 4,
-      "user": {
-        "name": "João Almeida"
-      },
-      "cargo": {
-        "name": "Desenvolvedor Front-end"
-      },
-      "empresa": {
-        "name": "WebCrafters"
-      },
+      "user": { "name": "João Almeida" },
+      "cargo": { "name": "Desenvolvedor Front-end" },
+      "empresa": { "name": "WebCrafters" },
       "curriculo": "www.joaoalmeida.com/cv",
       "biografia": "Especialista em interfaces de usuário responsivas e modernas.",
       "preco": 20.0,
       "avaliacao": 4.6,
       "habilidades": [
-        {
-          "name": "Front-end"
-        },
-        {
-          "name": "React"
-        },
-        {
-          "name": "Vue.js"
-        },
-        {
-          "name": "UX/UI"
-        },
-        {
-          "name": "CSS"
-        },
-        {
-          "name": "SASS"
-        },
-        {
-          "name": "JavaScript"
-        },
-        {
-          "name": "Figma"
-        },
-        {
-          "name": "Agile"
-        }
+        { "name": "Front-end" },
+        { "name": "React" },
+        { "name": "Vue.js" },
+        { "name": "UX/UI" },
+        { "name": "CSS" },
+        { "name": "SASS" },
+        { "name": "JavaScript" },
+        { "name": "Figma" },
+        { "name": "Agile" }
       ]
     },
     {
       "id": 5,
-      "user": {
-        "name": "Patrícia Lima"
-      },
-      "cargo": {
-        "name": "Arquiteta de Cloud"
-      },
-      "empresa": {
-        "name": "SkyTech"
-      },
+      "user": { "name": "Patrícia Lima" },
+      "cargo": { "name": "Arquiteta de Cloud" },
+      "empresa": { "name": "SkyTech" },
       "curriculo": "www.patricialima.com/cv",
       "biografia": "Especialista em soluções escaláveis na nuvem.",
       "preco": 35.0,
       "avaliacao": 4.9,
       "habilidades": [
-        {
-          "name": "Cloud Computing"
-        },
-        {
-          "name": "AWS"
-        },
-        {
-          "name": "Google Cloud"
-        },
-        {
-          "name": "Azure"
-        },
-        {
-          "name": "Terraform"
-        },
-        {
-          "name": "Kubernetes"
-        },
-        {
-          "name": "DevOps"
-        },
-        {
-          "name": "Segurança da Informação"
-        },
-        {
-          "name": "Agile"
-        }
+        { "name": "Cloud Computing" },
+        { "name": "AWS" },
+        { "name": "Google Cloud" },
+        { "name": "Azure" },
+        { "name": "Terraform" },
+        { "name": "Kubernetes" },
+        { "name": "DevOps" },
+        { "name": "Segurança da Informação" },
+        { "name": "Agile" }
       ]
     },
     {
       "id": 6,
-      "user": {
-        "name": "Ricardo Souza"
-      },
-      "cargo": {
-        "name": "Engenheiro de IA"
-      },
-      "empresa": {
-        "name": "AI Minds"
-      },
+      "user": { "name": "Ricardo Souza" },
+      "cargo": { "name": "Engenheiro de IA" },
+      "empresa": { "name": "AI Minds" },
       "curriculo": "www.ricardosouza.com/cv",
       "biografia": "Especialista em modelos de machine learning e deep learning.",
       "preco": 40.0,
       "avaliacao": 4.8,
       "habilidades": [
-        {
-          "name": "Inteligência Artificial"
-        },
-        {
-          "name": "Python"
-        },
-        {
-          "name": "TensorFlow"
-        },
-        {
-          "name": "PyTorch"
-        },
-        {
-          "name": "Machine Learning"
-        },
-        {
-          "name": "Deep Learning"
-        },
-        {
-          "name": "Cloud Computing"
-        },
-        {
-          "name": "Big Data"
-        },
-        {
-          "name": "Agile"
-        }
+        { "name": "Inteligência Artificial" },
+        { "name": "Python" },
+        { "name": "TensorFlow" },
+        { "name": "PyTorch" },
+        { "name": "Machine Learning" },
+        { "name": "Deep Learning" },
+        { "name": "Cloud Computing" },
+        { "name": "Big Data" },
+        { "name": "Agile" }
       ]
     },
     {
       "id": 7,
-      "user": {
-        "name": "Fernanda Oliveira"
-      },
-      "cargo": {
-        "name": "Especialista em Segurança"
-      },
-      "empresa": {
-        "name": "SecureNet"
-      },
+      "user": { "name": "Fernanda Oliveira" },
+      "cargo": { "name": "Especialista em Segurança" },
+      "empresa": { "name": "SecureNet" },
       "curriculo": "www.fernandaoliveira.com/cv",
       "biografia": "Especialista em proteção de dados e cibersegurança.",
       "preco": 28.0,
       "avaliacao": 4.7,
       "habilidades": [
-        {
-          "name": "Segurança da Informação"
-        },
-        {
-          "name": "Cibersegurança"
-        },
-        {
-          "name": "Firewalls"
-        },
-        {
-          "name": "Penetration Testing"
-        },
-        {
-          "name": "DevOps"
-        },
-        {
-          "name": "Cloud Computing"
-        },
-        {
-          "name": "Agile"
-        },
-        {
-          "name": "ISO 27001"
-        }
+        { "name": "Segurança da Informação" },
+        { "name": "Cibersegurança" },
+        { "name": "Firewalls" },
+        { "name": "Penetration Testing" },
+        { "name": "DevOps" },
+        { "name": "Cloud Computing" },
+        { "name": "Agile" },
+        { "name": "ISO 27001" }
       ]
     },
     {
       "id": 8,
-      "user": {
-        "name": "Lucas Santos"
-      },
-      "cargo": {
-        "name": "Desenvolvedor Back-end"
-      },
-      "empresa": {
-        "name": "CodeMasters"
-      },
+      "user": { "name": "Lucas Santos" },
+      "cargo": { "name": "Desenvolvedor Back-end" },
+      "empresa": { "name": "CodeMasters" },
       "curriculo": "www.lucassantos.com/cv",
       "biografia": "Especialista em APIs e sistemas escaláveis.",
       "preco": 26.0,
       "avaliacao": 4.8,
       "habilidades": [
-        {
-          "name": "Back-end"
-        },
-        {
-          "name": "Node.js"
-        },
-        {
-          "name": "Java"
-        },
-        {
-          "name": "Spring Boot"
-        },
-        {
-          "name": "REST APIs"
-        },
-        {
-          "name": "GraphQL"
-        },
-        {
-          "name": "Docker"
-        },
-        {
-          "name": "Kubernetes"
-        },
-        {
-          "name": "Agile"
-        }
+        { "name": "Back-end" },
+        { "name": "Node.js" },
+        { "name": "Java" },
+        { "name": "Spring Boot" },
+        { "name": "REST APIs" },
+        { "name": "GraphQL" },
+        { "name": "Docker" },
+        { "name": "Kubernetes" },
+        { "name": "Agile" }
       ]
     },
     {
       "id": 9,
-      "user": {
-        "name": "Camila Rocha"
-      },
-      "cargo": {
-        "name": "Designer de UX/UI"
-      },
-      "empresa": {
-        "name": "PixelArt"
-      },
+      "user": { "name": "Camila Rocha" },
+      "cargo": { "name": "Designer de UX/UI" },
+      "empresa": { "name": "PixelArt" },
       "curriculo": "www.camilarocha.com/cv",
       "biografia": "Especialista em design de interfaces intuitivas e atraentes.",
       "preco": 24.0,
       "avaliacao": 4.7,
       "habilidades": [
-        {
-          "name": "UX/UI"
-        },
-        {
-          "name": "Figma"
-        },
-        {
-          "name": "Adobe XD"
-        },
-        {
-          "name": "Sketch"
-        },
-        {
-          "name": "Prototipagem"
-        },
-        {
-          "name": "Design Thinking"
-        },
-        {
-          "name": "Front-end"
-        },
-        {
-          "name": "Agile"
-        }
+        { "name": "UX/UI" },
+        { "name": "Figma" },
+        { "name": "Adobe XD" },
+        { "name": "Sketch" },
+        { "name": "Prototipagem" },
+        { "name": "Design Thinking" },
+        { "name": "Front-end" },
+        { "name": "Agile" }
       ]
     },
     {
       "id": 10,
-      "user": {
-        "name": "Gustavo Henrique"
-      },
-      "cargo": {
-        "name": "Engenheiro de Dados"
-      },
-      "empresa": {
-        "name": "DataFlow"
-      },
+      "user": { "name": "Gustavo Henrique" },
+      "cargo": { "name": "Engenheiro de Dados" },
+      "empresa": { "name": "DataFlow" },
       "curriculo": "www.gustavohenrique.com/cv",
       "biografia": "Especialista em big data e pipelines de dados.",
       "preco": 32.0,
       "avaliacao": 4.9,
       "habilidades": [
-        {
-          "name": "Big Data"
-        },
-        {
-          "name": "Hadoop"
-        },
-        {
-          "name": "Spark"
-        },
-        {
-          "name": "Python"
-        },
-        {
-          "name": "SQL"
-        },
-        {
-          "name": "Cloud Computing"
-        },
-        {
-          "name": "DevOps"
-        },
-        {
-          "name": "Agile"
-        },
-        {
-          "name": "Segurança da Informação"
-        }
+        { "name": "Big Data" },
+        { "name": "Hadoop" },
+        { "name": "Spark" },
+        { "name": "Python" },
+        { "name": "SQL" },
+        { "name": "Cloud Computing" },
+        { "name": "DevOps" },
+        { "name": "Agile" },
+        { "name": "Segurança da Informação" }
       ]
     },
   ]
