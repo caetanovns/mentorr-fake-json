@@ -133,7 +133,7 @@
       "curriculo": "www.anasilva.com/cv",
       "biografia": "Especialista em desenvolvimento de sistemas e inovação tecnológica.",
       "preco": 22.5,
-      "avaliacao": 4.7,
+      "avaliacao": 1,
       "habilidades": [
         { "name": "Python" },
         { "name": "Django" },
@@ -154,7 +154,7 @@
       "curriculo": "www.carlosmendes.com/cv",
       "biografia": "Desenvolvedor experiente em soluções web e mobile.",
       "preco": 25.0,
-      "avaliacao": 4.8,
+      "avaliacao": 5,
       "habilidades": [
         { "name": "Front-end" },
         { "name": "Back-end" },
@@ -176,7 +176,7 @@
       "curriculo": "www.marianacosta.com/cv",
       "biografia": "Especialista em integração contínua e entrega contínua.",
       "preco": 30.0,
-      "avaliacao": 4.9,
+      "avaliacao": 3,
       "habilidades": [
         { "name": "DevOps" },
         { "name": "Kubernetes" },
@@ -198,7 +198,7 @@
       "curriculo": "www.joaoalmeida.com/cv",
       "biografia": "Especialista em interfaces de usuário responsivas e modernas.",
       "preco": 20.0,
-      "avaliacao": 4.6,
+      "avaliacao": 2,
       "habilidades": [
         { "name": "Front-end" },
         { "name": "React" },
@@ -219,7 +219,7 @@
       "curriculo": "www.patricialima.com/cv",
       "biografia": "Especialista em soluções escaláveis na nuvem.",
       "preco": 35.0,
-      "avaliacao": 4.9,
+      "avaliacao": 4,
       "habilidades": [
         { "name": "Cloud Computing" },
         { "name": "AWS" },
