@@ -1,159 +1,339 @@
 {
-  "tutores":
-    [
-      {
-        "id": 1,
-        "name": "Programador 1",
-        "role": "Desenvolvedor Backend Sênior",
-        "rating": 5,
-        "skills": ["tecnologia", "ux/ui design"],
-        "photo": "https://placehold.co/400",
-      },
-      {
-        "id": 2,
-        "name": "Programador 2",
-        "role": "Desenvolvedor Frontend Pleno",
-        "rating": 4,
-        "skills": ["React", "CSS avançado", "JavaScript"],
-        "photo": "https://placehold.co/400",
-      },
-      {
-        "id": 3,
-        "name": "Programador 3",
-        "role": "Engenheiro de Software",
-        "rating": 5,
-        "skills": ["Arquitetura de software", "Banco de Dados", "DevOps"],
-        "photo": "https://placehold.co/400",
-      },
-      {
-        "id": 4,
-        "name": "Programador 4",
-        "role": "Desenvolvedor Mobile Júnior",
-        "rating": 3,
-        "skills": ["Flutter", "UI responsiva", "Firebase"],
-        "photo": "https://placehold.co/400",
-      },
-      {
-        "id": 5,
-        "name": "Programador 5",
-        "role": "Analista de Dados",
-        "rating": 4,
-        "skills": ["Python", "Machine Learning", "SQL"],
-        "photo": "https://placehold.co/400",
-      },
-      {
-        "id": 6,
-        "name": "Programador 6",
-        "role": "Analista de Dados II",
-        "rating": 5,
-        "skills": ["Python", "ML", "PGSQL"],
-        "photo": "https://placehold.co/400",
-      },
-    ],
-  "testimonials":
-    [
-      {
-        "id": 1,
-        "rating": 4,
-        "testimonial": "Fazer mentoria com o Thormes foi uma experiência transformadora. Ele me ajudou a entender o mercado, aprimorar minhas habilidades e traçar metas claras para minha carreira. Hoje, sinto-me muito mais confiante para seguir nessa nova jornada.",
-        "person":
-          {
-            "name": "Kauan Ribeiro Feijó",
-            "role": "Desenvolvedor Web na Google",
-            "photo": "https://placehold.co/400",
-          },
-      },
-      {
-        "id": 2,
-        "rating": 4,
-        "testimonial": "A mentoria me ajudou a encontrar meu primeiro emprego na área de tecnologia. O Thormes compartilhou dicas valiosas sobre entrevistas e como destacar meu portfólio.",
-        "person":
-          {
-            "name": "Larissa Almeida",
-            "role": "UI/UX Designer na Meta",
-            "photo": "https://placehold.co/400",
-          },
-      },
-      {
-        "id": 3,
-        "rating": 3,
-        "testimonial": "Com a orientação do Thormes, consegui estruturar minha startup e lançar meu primeiro produto digital. A experiência foi essencial para meu crescimento profissional.",
-        "person":
-          {
-            "name": "Carlos Henrique",
-            "role": "CEO da TechStart",
-            "photo": "https://placehold.co/400",
-          },
-      },
-      {
-        "id": 4,
-        "rating": 2,
-        "testimonial": "Aprendi a organizar meu tempo e melhorar minha produtividade no trabalho. As sessões de mentoria foram extremamente práticas e aplicáveis ao meu dia a dia.",
-        "person":
-          {
-            "name": "Fernanda Souza",
-            "role": "Desenvolvedora Fullstack na Amazon",
-            "photo": "https://placehold.co/400",
-          },
-      },
-      {
-        "id": 5,
-        "rating": 1,
-        "testimonial": "A mentoria foi um divisor de águas para minha carreira. Consegui um cargo de liderança graças às estratégias e insights passados pelo Thormes.",
-        "person":
-          {
-            "name": "Rafael Torres",
-            "role": "Tech Lead na Microsoft",
-            "photo": "https://placehold.co/400",
-          },
-      },
-    ],
-  "mentores":
-    [
-      {
-        id: 1,
-        user: { name: "Ana Silva" },
-        cargo: { nome: "CTO" },
-        empresa: { nome: "Tech Solutions" },
-        curriculo: "www.anasilva.com/cv",
-        biografia: "Especialista em desenvolvimento de sistemas e inovação tecnológica.",
-        preco: 22.5,
-        avaliacao: 4.7,
-        habilidades:
-          [
-            { nome: "Python" },
-            { nome: "Django" },
-            { nome: "Laravel" },
-            { nome: "HTML" },
-            { nome: "JS" },
-            { nome: "Front-end" },
-            { nome: "Back-end" },
-            { nome: "Cloud Computing" },
-            { nome: "Agile" },
-          ],
-      },
-      {
-        id: 2,
-        user: { name: "Carlos Mendes" },
-        cargo: { nome: "Desenvolvedor Full-Stack" },
-        empresa: { nome: "InovaTech" },
-        curriculo: "www.carlosmendes.com/cv",
-        biografia: "Desenvolvedor experiente em soluções web e mobile.",
-        preco: 25.0,
-        avaliacao: 4.8,
-        habilidades:
-          [
-            { nome: "Front-end" },
-            { nome: "Back-end" },
-            { nome: "React" },
-            { nome: "Node.js" },
-            { nome: "UX/UI" },
-            { nome: "Agile" },
-            { nome: "MongoDB" },
-            { nome: "Docker" },
-            { nome: "AWS" },
-            { nome: "Git" },
-          ],
-      },
-    ]
+  "tutores": [
+    {
+      "id": 1,
+      "name": "Programador 1",
+      "role": "Desenvolvedor Backend Sênior",
+      "rating": 5,
+      "skills": [
+        "tecnologia",
+        "ux/ui design"
+      ],
+      "photo": "https://placehold.co/400"
+    },
+    {
+      "id": 2,
+      "name": "Programador 2",
+      "role": "Desenvolvedor Frontend Pleno",
+      "rating": 4,
+      "skills": [
+        "React",
+        "CSS avançado",
+        "JavaScript"
+      ],
+      "photo": "https://placehold.co/400"
+    },
+    {
+      "id": 3,
+      "name": "Programador 3",
+      "role": "Engenheiro de Software",
+      "rating": 5,
+      "skills": [
+        "Arquitetura de software",
+        "Banco de Dados",
+        "DevOps"
+      ],
+      "photo": "https://placehold.co/400"
+    },
+    {
+      "id": 4,
+      "name": "Programador 4",
+      "role": "Desenvolvedor Mobile Júnior",
+      "rating": 3,
+      "skills": [
+        "Flutter",
+        "UI responsiva",
+        "Firebase"
+      ],
+      "photo": "https://placehold.co/400"
+    },
+    {
+      "id": 5,
+      "name": "Programador 5",
+      "role": "Analista de Dados",
+      "rating": 4,
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "SQL"
+      ],
+      "photo": "https://placehold.co/400"
+    },
+    {
+      "id": 6,
+      "name": "Programador 6",
+      "role": "Analista de Dados II",
+      "rating": 5,
+      "skills": [
+        "Python",
+        "ML",
+        "PGSQL"
+      ],
+      "photo": "https://placehold.co/400"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "rating": 4,
+      "testimonial": "Fazer mentoria com o Thormes foi uma experiência transformadora. Ele me ajudou a entender o mercado, aprimorar minhas habilidades e traçar metas claras para minha carreira. Hoje, sinto-me muito mais confiante para seguir nessa nova jornada.",
+      "person": {
+        "name": "Kauan Ribeiro Feijó",
+        "role": "Desenvolvedor Web na Google",
+        "photo": "https://placehold.co/400"
+      }
+    },
+    {
+      "id": 2,
+      "rating": 4,
+      "testimonial": "A mentoria me ajudou a encontrar meu primeiro emprego na área de tecnologia. O Thormes compartilhou dicas valiosas sobre entrevistas e como destacar meu portfólio.",
+      "person": {
+        "name": "Larissa Almeida",
+        "role": "UI/UX Designer na Meta",
+        "photo": "https://placehold.co/400"
+      }
+    },
+    {
+      "id": 3,
+      "rating": 3,
+      "testimonial": "Com a orientação do Thormes, consegui estruturar minha startup e lançar meu primeiro produto digital. A experiência foi essencial para meu crescimento profissional.",
+      "person": {
+        "name": "Carlos Henrique",
+        "role": "CEO da TechStart",
+        "photo": "https://placehold.co/400"
+      }
+    },
+    {
+      "id": 4,
+      "rating": 2,
+      "testimonial": "Aprendi a organizar meu tempo e melhorar minha produtividade no trabalho. As sessões de mentoria foram extremamente práticas e aplicáveis ao meu dia a dia.",
+      "person": {
+        "name": "Fernanda Souza",
+        "role": "Desenvolvedora Fullstack na Amazon",
+        "photo": "https://placehold.co/400"
+      }
+    },
+    {
+      "id": 5,
+      "rating": 1,
+      "testimonial": "A mentoria foi um divisor de águas para minha carreira. Consegui um cargo de liderança graças às estratégias e insights passados pelo Thormes.",
+      "person": {
+        "name": "Rafael Torres",
+        "role": "Tech Lead na Microsoft",
+        "photo": "https://placehold.co/400"
+      }
+    }
+  ],
+  "mentores": [
+    {
+      id: 1,
+      user: { name: "Ana Silva" },
+      cargo: { nome: "CTO" },
+      empresa: { nome: "Tech Solutions" },
+      curriculo: "www.anasilva.com/cv",
+      biografia: "Especialista em desenvolvimento de sistemas e inovação tecnológica.",
+      preco: 22.5,
+      avaliacao: 4.7,
+      habilidades: [
+        { nome: "Python" },
+        { nome: "Django" },
+        { nome: "Laravel" },
+        { nome: "HTML" },
+        { nome: "JS" },
+        { nome: "Front-end" },
+        { nome: "Back-end" },
+        { nome: "Cloud Computing" },
+        { nome: "Agile" }
+      ]
+    },
+    {
+      id: 2,
+      user: { name: "Carlos Mendes" },
+      cargo: { nome: "Desenvolvedor Full-Stack" },
+      empresa: { nome: "InovaTech" },
+      curriculo: "www.carlosmendes.com/cv",
+      biografia: "Desenvolvedor experiente em soluções web e mobile.",
+      preco: 25.0,
+      avaliacao: 4.8,
+      habilidades: [
+        { nome: "Front-end" },
+        { nome: "Back-end" },
+        { nome: "React" },
+        { nome: "Node.js" },
+        { nome: "UX/UI" },
+        { nome: "Agile" },
+        { nome: "MongoDB" },
+        { nome: "Docker" },
+        { nome: "AWS" },
+        { nome: "Git" }
+      ]
+    },
+    {
+      id: 3,
+      user: { name: "Mariana Costa" },
+      cargo: { nome: "Engenheira de DevOps" },
+      empresa: { nome: "CloudNest" },
+      curriculo: "www.marianacosta.com/cv",
+      biografia: "Especialista em integração contínua e entrega contínua.",
+      preco: 30.0,
+      avaliacao: 4.9,
+      habilidades: [
+        { nome: "DevOps" },
+        { nome: "Kubernetes" },
+        { nome: "Terraform" },
+        { nome: "Jenkins" },
+        { nome: "AWS" },
+        { nome: "Azure" },
+        { nome: "Docker" },
+        { nome: "GitLab" },
+        { nome: "Agile" },
+        { nome: "Segurança da Informação" }
+      ]
+    },
+    {
+      id: 4,
+      user: { name: "João Almeida" },
+      cargo: { nome: "Desenvolvedor Front-end" },
+      empresa: { nome: "WebCrafters" },
+      curriculo: "www.joaoalmeida.com/cv",
+      biografia: "Especialista em interfaces de usuário responsivas e modernas.",
+      preco: 20.0,
+      avaliacao: 4.6,
+      habilidades: [
+        { nome: "Front-end" },
+        { nome: "React" },
+        { nome: "Vue.js" },
+        { nome: "UX/UI" },
+        { nome: "CSS" },
+        { nome: "SASS" },
+        { nome: "JavaScript" },
+        { nome: "Figma" },
+        { nome: "Agile" }
+      ]
+    },
+    {
+      id: 5,
+      user: { name: "Patrícia Lima" },
+      cargo: { nome: "Arquiteta de Cloud" },
+      empresa: { nome: "SkyTech" },
+      curriculo: "www.patricialima.com/cv",
+      biografia: "Especialista em soluções escaláveis na nuvem.",
+      preco: 35.0,
+      avaliacao: 4.9,
+      habilidades: [
+        { nome: "Cloud Computing" },
+        { nome: "AWS" },
+        { nome: "Google Cloud" },
+        { nome: "Azure" },
+        { nome: "Terraform" },
+        { nome: "Kubernetes" },
+        { nome: "DevOps" },
+        { nome: "Segurança da Informação" },
+        { nome: "Agile" }
+      ]
+    },
+    {
+      id: 6,
+      user: { name: "Ricardo Souza" },
+      cargo: { nome: "Engenheiro de IA" },
+      empresa: { nome: "AI Minds" },
+      curriculo: "www.ricardosouza.com/cv",
+      biografia: "Especialista em modelos de machine learning e deep learning.",
+      preco: 40.0,
+      avaliacao: 4.8,
+      habilidades: [
+        { nome: "Inteligência Artificial" },
+        { nome: "Python" },
+        { nome: "TensorFlow" },
+        { nome: "PyTorch" },
+        { nome: "Machine Learning" },
+        { nome: "Deep Learning" },
+        { nome: "Cloud Computing" },
+        { nome: "Big Data" },
+        { nome: "Agile" }
+      ]
+    },
+    {
+      id: 7,
+      user: { name: "Fernanda Oliveira" },
+      cargo: { nome: "Especialista em Segurança" },
+      empresa: { nome: "SecureNet" },
+      curriculo: "www.fernandaoliveira.com/cv",
+      biografia: "Especialista em proteção de dados e cibersegurança.",
+      preco: 28.0,
+      avaliacao: 4.7,
+      habilidades: [
+        { nome: "Segurança da Informação" },
+        { nome: "Cibersegurança" },
+        { nome: "Firewalls" },
+        { nome: "Penetration Testing" },
+        { nome: "DevOps" },
+        { nome: "Cloud Computing" },
+        { nome: "Agile" },
+        { nome: "ISO 27001" }
+      ]
+    },
+    {
+      id: 8,
+      user: { name: "Lucas Santos" },
+      cargo: { nome: "Desenvolvedor Back-end" },
+      empresa: { nome: "CodeMasters" },
+      curriculo: "www.lucassantos.com/cv",
+      biografia: "Especialista em APIs e sistemas escaláveis.",
+      preco: 26.0,
+      avaliacao: 4.8,
+      habilidades: [
+        { nome: "Back-end" },
+        { nome: "Node.js" },
+        { nome: "Java" },
+        { nome: "Spring Boot" },
+        { nome: "REST APIs" },
+        { nome: "GraphQL" },
+        { nome: "Docker" },
+        { nome: "Kubernetes" },
+        { nome: "Agile" }
+      ]
+    },
+    {
+      id: 9,
+      user: { name: "Camila Rocha" },
+      cargo: { nome: "Designer de UX/UI" },
+      empresa: { nome: "PixelArt" },
+      curriculo: "www.camilarocha.com/cv",
+      biografia: "Especialista em design de interfaces intuitivas e atraentes.",
+      preco: 24.0,
+      avaliacao: 4.7,
+      habilidades: [
+        { nome: "UX/UI" },
+        { nome: "Figma" },
+        { nome: "Adobe XD" },
+        { nome: "Sketch" },
+        { nome: "Prototipagem" },
+        { nome: "Design Thinking" },
+        { nome: "Front-end" },
+        { nome: "Agile" }
+      ]
+    },
+    {
+      id: 10,
+      user: { name: "Gustavo Henrique" },
+      cargo: { nome: "Engenheiro de Dados" },
+      empresa: { nome: "DataFlow" },
+      curriculo: "www.gustavohenrique.com/cv",
+      biografia: "Especialista em big data e pipelines de dados.",
+      preco: 32.0,
+      avaliacao: 4.9,
+      habilidades: [
+        { nome: "Big Data" },
+        { nome: "Hadoop" },
+        { nome: "Spark" },
+        { nome: "Python" },
+        { nome: "SQL" },
+        { nome: "Cloud Computing" },
+        { nome: "DevOps" },
+        { nome: "Agile" },
+        { nome: "Segurança da Informação" }
+      ]
+    },
+  ]
 }
