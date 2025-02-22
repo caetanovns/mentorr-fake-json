@@ -287,26 +287,5 @@
             { nome: "Agile" },
           ],
       },
-      {
-        id: 9,
-        user: { name: "Camila Rocha" },
-        cargo: { nome: "Designer de UX/UI" },
-        empresa: { nome: "PixelArt" },
-        curriculo: "www.camilarocha.com/cv",
-        biografia: "Especialista em design de interfaces intuitivas e atraentes.",
-        preco: 24.0,
-        avaliacao: 4.7,
-        habilidades:
-          [
-            { nome: "UX/UI" },
-            { nome: "Figma" },
-            { nome: "Adobe XD" },
-            { nome: "Sketch" },
-            { nome: "Prototipagem" },
-            { nome: "Design Thinking" },
-            { nome: "Front-end" },
-            { nome: "Agile" },
-          ],
-      },
     ]
 }
